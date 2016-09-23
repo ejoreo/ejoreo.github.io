@@ -1,56 +1,49 @@
 <!DOCTYPE html>
 <html lang=en>
-<head>
-	<title>Get tracking!</title>
-</head>
-<body>
-	
-	<h1>Welcome to Route Tracker</h1>
-	
-	
-	<h4>Route Tracker is a simple website with a powerful job.</h4>
-		<p>We want to offer a concise and engaging platform for logging, tracking, and sharing rock climbing ascents with anyone in the world.</p>
-	<h3>Please fill in the following fields to get tracking. 
-	<br>
-	<em>Thanks!</em>
-	</h3>
-	<form action="https://httpbin.org/post" method="get"> 		
-  		<div>
-    		<label><b>Climber</b></label>
-    		<br>
-    		<input type="text" name="fullname" placeholder="Last, First">
-  		</div>
-  		<div>
-    		<label><b>Route Name</b></label>
-    		<br>
-    		<input type="text" name="routename">
-  		</div>
-  		<div>
-  			<label><b>Date Sent</b></label>
-  			<input type="date" name="datesent">
-  		</div>
-  		<div>
-  			<label><b>Recommended Grade</b></label>
-  			<br>
-  			<input type="text" placeholder="5.- or V-">
-  		</div>
-  		<div>
-  			<label><b>Recommended Stars</b></label>
-  			<select name="stars">
-  				<option value="0">No stars</option>
-  				<option value="1">One star</option>
-  				<option value="2">Two Stars</option>
-  				<option value="3">Three Stars!</option>
-  				<option value="4">Four Stars!!!</option>
-  			</select>
-  		</div>
-  			<button type="submit"><em>Track it!</em></button>
-	</form>
-
-
-
-</body>
-
-
-
+	<head>
+		<title>Get tracking!</title>
+	</head>
+	<body>
+		<header>
+			<h1>Welcome to Route Tracker</h1>
+			<h4>Route Tracker is a simple website with a powerful job.</h4>
+			<p>We want to offer a concise and engaging platform for logging, tracking, and sharing rock climbing ascents with anyone in the world.</p>
+			<h3>Please fill in the following fields to get tracking. 
+			<br>
+			<em>Thanks!</em>
+			</h3>
+		</header>
+		<form action="submit.html" method="get"> 
+  			<div>
+    			<label><b>Climber</b></label>
+    			<br>
+    			<input type="text" name="fullname" placeholder="Last, First">
+  			</div>
+  			<div>
+    			<label><b>Route Name</b></label>
+    			<br>
+    			<input type="text" name="routename">
+  			</div>
+  			<div>
+  				<label><b>Date Sent</b></label>
+  				<input type="date" name="datesent">
+  			</div>
+  			<div>
+  				<label><b>Recommended Grade</b></label>
+  				<br>
+  				<input type="text" placeholder="5.- or V-">
+  			</div>
+  			<div>
+  				<label><b>Recommended Stars</b></label>
+  				<select name="stars">
+  					<option value="0">No stars</option>
+  					<option value="1">One star</option>
+  					<option value="2">Two Stars</option>
+  					<option value="3">Three Stars!</option>
+  					<option value="4">Four Stars!!!</option>
+  				</select>
+  			</div>
+  				<input type="submit" value="Track it!">
+		</form>
+	</body>
 </html>
