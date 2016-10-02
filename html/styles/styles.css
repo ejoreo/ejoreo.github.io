@@ -1,0 +1,7 @@
+body {
+	background-color: white;
+}
+
+body * {
+	outline: 1px solid red;
+}
